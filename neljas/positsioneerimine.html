@@ -3,7 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <title>Positsioneerimine</title>
-    <link type="text/css"  rel="stylesheet" href="stiil.css" />
+    <link type="text/css" rel="stylesheet" href="stiil.css"/>
+
+    <script>
+        window.onload = function() {
+        var marklaud = document.getElementById('div_id')
+        marklaud.onclick=function(){
+         marklaud.style.top = Math.random() * 100+'%';
+         marklaud.style.left = Math.random() * 100+'%';
+        }
+}
+
+    </script>
 </head>
 <body>
 <img src="http://enos.itcollege.ee/~ttanav/VRI/Kodused/04/duck.png">
